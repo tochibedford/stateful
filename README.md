@@ -7,6 +7,8 @@ N.B.: I fully acknowledge the "pythonic" philosophy of simplicity, this is just 
 #Usage
 
 ```
+from states import _
+
 a = 2
 a = _(a)
 a = _(392, a)
