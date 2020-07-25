@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'stateful',         # How you named your package folder (MyLib)
   packages = ['stateful'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='Apache License 2.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Implementing stateful objects in python',   # Give a short description about your library
   author = 'tochibedford',                   # Type in your name
   author_email = 'tochukwu.bedford@stu.cu.edu.ng',      # Type in your E-Mail
   url = 'https://github.com/tochibedford/stateful',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tochibedford/stateful/archive/0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/tochibedford/stateful/archive/0.2.tar.gz',    # I explain this later on
   keywords = ['states', 'objects', 'new_types'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
